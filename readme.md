@@ -1,0 +1,1 @@
+Microbial DNA genomes, plasmids, etc. are often circular in nature. However, modern implementation of the Fasta sequence format only stores sequences as linear. For certain bioinformatic applications (i.e. coverage mapping) is is relevant to consider the sequence segment that crosses the artificial ends. This script makes it easy to extract that region with fllanks of any size.
